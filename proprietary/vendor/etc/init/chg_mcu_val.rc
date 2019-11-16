@@ -1,0 +1,6 @@
+service chg_mcu_val /vendor/bin/chg_mcu_val
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start chg_mcu_val

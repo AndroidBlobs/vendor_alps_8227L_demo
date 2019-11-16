@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a feature indicating that the platform can monitor the storage avaliable space of pathes listed below. -->
+<partitions>
+    <checkInternal>30</checkInternal>
+    <UncoveredApp>
+        <PackageName>com.autochips.backcarapp</PackageName>
+    </UncoveredApp>
+    <partition>
+        <path>/data</path>
+        <level>
+            <rank>1</rank>
+            <threshold>150</threshold>
+            <percentage>20</percentage>
+        </level>
+        <level>
+            <rank>2</rank>
+            <threshold>80</threshold>
+            <percentage>10</percentage>
+        </level>
+        <level>
+            <rank>3</rank>
+            <threshold>110</threshold>
+            <percentage>15</percentage>
+        </level>
+    </partition>
+</partitions>

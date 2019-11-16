@@ -1,0 +1,4 @@
+service atc_hal_audhw /vendor/bin/hw/vendor.autochips.hardware.audio@1.0-service
+    class hal
+    user system
+    group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct system sdcard_rw

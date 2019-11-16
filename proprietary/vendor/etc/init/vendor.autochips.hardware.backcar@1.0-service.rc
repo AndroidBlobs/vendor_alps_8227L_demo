@@ -1,0 +1,4 @@
+service backcar_daemon /vendor/bin/hw/vendor.autochips.hardware.backcar@1.0-service
+	class hal
+	user system
+	group system

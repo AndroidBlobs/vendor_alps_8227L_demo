@@ -1,0 +1,4 @@
+service metalogo_daemon /vendor/bin/hw/vendor.autochips.hardware.metalogo@1.0-service
+	class hal
+	user system
+	group system
